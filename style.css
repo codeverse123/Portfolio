@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #010001f2;
+}
+
+.side_container{
+    background-color: #121112;
+    position: fixed;
+    top: 3%;
+    left: 4%;
+    width: 250px;
+    height: 90%;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(163, 202, 249, 0.112);
+    border-radius: 30px;
+}
+
+.logo{
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 10px;
+}
+.upper{
+    display: flex;
+    padding: 5px;
+}
+.text{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-left: 15px;
+    width: 20px;
+}
+
+.person{
+    width: 220px;
+    border-radius: 20px;
+    display: block;
+    margin: 0% auto;
+}
+
+.middle{
+    margin: 10% auto;
+    display: block;
+    width: 90%;
+}
+.details{
+    margin-top: 8%;
+}
+.specs{
+    display: block;
+    color: rgba(162, 162, 162, 0.714);
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+strong{
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.end{
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: black;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin: 60% auto;
+    border-radius: 30px;
+    background: linear-gradient(45deg,#EA8D8D, #A890FE);
+}
+.end:hover{
+    transform:skewY(2deg);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navitems{
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: all .4s ease-in-out;
+}
+nav ul{
+    position: fixed;
+    top: 3%;
+    z-index: 1;
+    color: grey;
+    display: flex;
+    right: 30%;
+}
+li{
+    list-style: none;
+}
+.navitems:hover,.active{
+    border: .5px solid white;
+    color: white;
+}
+.talkicon{
+    width: 20px;
+    margin-left: 10px;
+}
+.right{
+    padding: 10px;
+    background: linear-gradient(50deg,#EA8D8D, #A890FE);
+    display: flex;
+    position: fixed;
+    z-index:1;
+    top: 3%;
+    cursor: pointer;
+    right: 5%;
+    border-radius: 10px;
+    width: fit-content;
+    transition: all .4s ease-in-out;
+}
+.right:hover{
+    transform:skewY(2deg);
+}
+
+.star{
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.meet{
+    padding: 7px;
+    display: flex;
+    color:white;
+    position:absolute;
+    top: 20%;
+    left: 28%;
+    width: 120px;
+    border: .2px solid grey;
+    border-radius: 30px;
+}
+.meet_text{
+    margin-left: 4px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.intro_detail{
+    font-size: 4rem;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(50deg,#EA8D8D, #A890FE);
+}
+
+#Home{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    padding: 10px;
+}
+.home_btn{
+    padding: 7px;
+    display: flex;
+    color:grey;
+    position:absolute;
+    top: 50%;
+    cursor: pointer;
+    width: fit-content;
+    border: .2px solid white;
+    transition: all .4s ease-in-out;
+    border-radius: 30px;
+}
+.btn_text{
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.home_btn:hover{
+    color: white;
+    transform: skewY(2deg);
+}
+
+.btn_icon{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dash{
+    left: 1%;
+}
+.download{
+    left: 18%;
+}
+
+#portfolio{
+    width: 60%;
+    height: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 28%;
+}
+
+.portfolio{
+    left: 0%;
+}
